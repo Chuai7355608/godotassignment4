@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://0u46u2q5q653"]
+
+[node name="Exit" type="Button"]
+custom_minimum_size = Vector2(200, 50)
+size_flags_horizontal = 4
+text = "EXIT"

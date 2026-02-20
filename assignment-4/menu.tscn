@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3fnaqqjxvkco"]
+
+[ext_resource type="Script" uid="uid://dkne1xaycqj2b" path="res://Menu.cs" id="1_lti8b"]
+[ext_resource type="PackedScene" uid="uid://ds726okxaxdre" path="res://buttons/Startbutton.tscn" id="2_4hy44"]
+[ext_resource type="PackedScene" uid="uid://c2400f01rad3f" path="res://buttons/Optionbutton.tscn" id="3_ytr4m"]
+[ext_resource type="PackedScene" uid="uid://0u46u2q5q653" path="res://buttons/Exitbutton.tscn" id="4_l48gv"]
+
+[node name="Menu" type="Node3D" node_paths=PackedStringArray("start", "option", "exit", "highscore")]
+script = ExtResource("1_lti8b")
+start = NodePath("Control/VBoxContainer/Start")
+option = NodePath("Control/VBoxContainer/Option")
+exit = NodePath("Control/VBoxContainer/Exit")
+highscore = NodePath("Control/VBoxContainer/Highscore")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1150.0
+offset_bottom = 648.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control"]
+layout_mode = 0
+offset_right = 1150.0
+offset_bottom = 648.0
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="Start" parent="Control/VBoxContainer" instance=ExtResource("2_4hy44")]
+layout_mode = 2
+
+[node name="Option" parent="Control/VBoxContainer" instance=ExtResource("3_ytr4m")]
+layout_mode = 2
+
+[node name="Exit" parent="Control/VBoxContainer" instance=ExtResource("4_l48gv")]
+layout_mode = 2
+
+[node name="Highscore" type="Label" parent="Control/VBoxContainer"]
+custom_minimum_size = Vector2(400, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 1
+text = "highest score:"
