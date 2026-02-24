@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://d1af7bvfmud4a"]
+
+[node name="return" type="Button"]
+custom_minimum_size = Vector2(200, 50)
+size_flags_horizontal = 4
+text = "BACK"

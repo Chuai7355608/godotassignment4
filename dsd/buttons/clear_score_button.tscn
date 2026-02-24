@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b7peg4fombrym"]
+
+[node name="clear_score" type="Button"]
+custom_minimum_size = Vector2(200, 50)
+size_flags_horizontal = 4
+text = "CLEAR SCORE"
