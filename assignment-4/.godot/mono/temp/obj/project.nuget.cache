@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "QCk76KuzjlQ=",
+  "success": true,
+  "projectFilePath": "H:\\godot\\works\\assignment-4\\ASSIGNMENT4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\godotsharpeditor\\4.5.1\\godotsharpeditor.4.5.1.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\MECHREVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

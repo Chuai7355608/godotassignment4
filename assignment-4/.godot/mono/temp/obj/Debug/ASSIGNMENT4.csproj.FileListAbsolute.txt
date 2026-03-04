@@ -1,0 +1,17 @@
+H:\godot\works\assignment-4\.godot\mono\temp\bin\Debug\ASSIGNMENT4.deps.json
+H:\godot\works\assignment-4\.godot\mono\temp\bin\Debug\ASSIGNMENT4.runtimeconfig.json
+H:\godot\works\assignment-4\.godot\mono\temp\bin\Debug\ASSIGNMENT4.dll
+H:\godot\works\assignment-4\.godot\mono\temp\bin\Debug\ASSIGNMENT4.pdb
+H:\godot\works\assignment-4\.godot\mono\temp\bin\Debug\GodotSharp.dll
+H:\godot\works\assignment-4\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNMENT4.csproj.AssemblyReference.cache
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNMENT4.GeneratedMSBuildEditorConfig.editorconfig
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNMENT4.AssemblyInfoInputs.cache
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNMENT4.AssemblyInfo.cs
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNMENT4.csproj.CoreCompileInputs.cache
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNME.5774BDEF.Up2Date
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNMENT4.dll
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\refint\ASSIGNMENT4.dll
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNMENT4.pdb
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ASSIGNMENT4.genruntimeconfig.cache
+H:\godot\works\assignment-4\.godot\mono\temp\obj\Debug\ref\ASSIGNMENT4.dll
