@@ -9,7 +9,7 @@ public partial class GameManager : Node
 	
 	public override void _Ready()
 	{
-		Singleton = this;
+		Singleton = this;//Create singleton
 		loadscore();
 	}
 
@@ -28,6 +28,8 @@ public partial class GameManager : Node
             ClosestNumber = file.GetFloat();
             file.Close();
         }
+
+		//first time run
 		else
 		{
 			ClosestNumber = 10f;

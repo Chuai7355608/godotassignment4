@@ -6,6 +6,7 @@ public partial class Menu : Node3D, ILevelManagerDependent
 
 	private LevelManager _levelManager;
 
+	//receive interface to inject
     public void SetLevelManager(LevelManager levelManager)
     {
         _levelManager = levelManager;

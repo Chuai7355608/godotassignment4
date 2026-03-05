@@ -14,8 +14,8 @@ public partial class LevelManager : Node
 
     public override void _Ready()
     {
-        //LoadMenu();
-        CallDeferred(nameof(LoadMenu));
+        LoadMenu();
+        //CallDeferred(nameof(LoadMenu));
     }
 
     public void LoadLevel(int levelIndex)
@@ -32,6 +32,7 @@ public partial class LevelManager : Node
             return;
         }
 
+        //pack the scene
         string scenePath = _scenePaths[levelIndex];
         PackedScene packedScene = GD.Load<PackedScene>(scenePath);
         
@@ -43,6 +44,7 @@ public partial class LevelManager : Node
 
         Node instance = packedScene.Instantiate();
         
+        //if interface is then inject
         if (instance is ILevelManagerDependent dependent)
         {
             dependent.SetLevelManager(this);

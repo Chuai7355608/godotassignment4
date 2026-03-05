@@ -1,14 +1,14 @@
 using Godot;
 using System;
 
-public partial class Game : Node3D,ILevelManagerDependent
+public partial class Game : Node,ILevelManagerDependent
 {
 	private LevelManager _levelManager;
 
-    public void SetLevelManager(LevelManager levelManager)
-    {
-        _levelManager = levelManager;
-    }
+	public void SetLevelManager(LevelManager levelManager)
+	{
+		_levelManager = levelManager;
+	}
 
 
 	
@@ -23,10 +23,10 @@ public partial class Game : Node3D,ILevelManagerDependent
 		countdown.Text = "Time: "+ counting;
 	}
 
-    public override void _ExitTree()
-    {
-        counting = 10f;
-    }
+	public override void _ExitTree()
+	{
+		counting = 10f;
+	}
 
 	public override void _Ready()
 	{
@@ -45,10 +45,10 @@ public partial class Game : Node3D,ILevelManagerDependent
 		}
 
 		if (Input.IsActionJustPressed("click_left"))
-        {
-            GameManager.Singleton.UpdateClosestNumber(counting);
-            
-            _levelManager.LoadMenu();
-        }
+		{
+			GameManager.Singleton.UpdateClosestNumber(counting);
+			
+			_levelManager.LoadMenu();
+		}
 	}
 }
